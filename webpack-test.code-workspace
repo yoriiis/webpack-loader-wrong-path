@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"[javascript][postcss][json][markdown]": {
+			"editor.formatOnSave": true,
+			"editor.tabSize": 4,
+			"editor.rulers": [100]
+		},
+		"emmet.includeLanguages": {
+			"postcss": "css",
+			"twig": "html"
+		},
+		"emmet.syntaxProfiles": {
+			"postcss": "css"
+		},
+		"files.trimTrailingWhitespace": true,
+		"search.exclude": {
+			"**/node_modules": true
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"esbenp.prettier-vscode",
+			"dbaeumer.vscode-eslint",
+			"stylelint.vscode-stylelint",
+			"nadim-vscode.symfony-code-snippets"
+		]
+	},
+	"launch": {
+		"configurations": [
+			{
+				"type": "node",
+				"request": "attach",
+				"name": "Node: Nodemon",
+				"restart": true
+			}
+		]
+	}
+}

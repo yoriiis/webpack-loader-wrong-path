@@ -1,0 +1,19 @@
+{
+	"scripts": {
+		"build": "webpack --mode=production --config=config/webpack.config.js",
+		"dev": "webpack --mode=development --config=config/webpack.config.js"
+	},
+	"prettier": "./config/prettier.config.js",
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/core": "^7.22.6",
+		"@babel/preset-env": "^7.22.6",
+		"babel-loader": "^9.1.2",
+		"core-js": "3.31.0",
+		"webpack": "^5.88.1",
+		"webpack-cli": "^5.1.4"
+	},
+	"engines": {
+		"node": "18"
+	}
+}
